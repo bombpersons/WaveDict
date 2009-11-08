@@ -1,0 +1,14 @@
+application: wavedict
+version: 2
+runtime: python
+api_version: 1
+
+handlers:
+- url: /_wave/.*
+  script: wavedict_app.py
+
+- url: /media
+  static_dir: media
+
+- url: /.*
+  script: wavedict.py

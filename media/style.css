@@ -1,0 +1,49 @@
+body {
+	color: #00000;
+	background-color: #AADD55;
+	
+	text-align: center;
+	vertical-align: middle;
+}
+
+td {
+	text-align: center;
+}
+
+tr {
+	vertical-align: top;
+}
+
+h1 {
+	font-size: 60pt;
+	font-weight: bold;
+	line-height: 60pt;
+	color: #55AA00;
+}
+
+h2 {
+	font-size: 20pt;
+	font-weight: bold;
+	color: #55AA00;
+}
+
+h3 {
+	font-size: 15pt;
+	font-weight: bold;
+	color: #55AA00;
+}
+
+.tagline {
+	font-size: 20pt;
+	color: #000000;
+}
+
+.code {
+	font-family: monospace;
+	color: #55AA00;
+	background-color: #000000;
+}
+
+.notes {
+	vertical-align: bottom;
+}
